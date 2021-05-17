@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		751F6479264A49AD00E80FF8 /* doubling2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F6478264A49AD00E80FF8 /* doubling2App.swift */; };
+		751F6479264A49AD00E80FF8 /* doublingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F6478264A49AD00E80FF8 /* doublingApp.swift */; };
 		751F647B264A49AD00E80FF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F647A264A49AD00E80FF8 /* ContentView.swift */; };
 		751F647D264A49AE00E80FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F647C264A49AE00E80FF8 /* Assets.xcassets */; };
 		751F6480264A49AE00E80FF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F647F264A49AE00E80FF8 /* Preview Assets.xcassets */; };
+		751F6488264A590A00E80FF8 /* sumOfAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F6487264A590A00E80FF8 /* sumOfAsset.swift */; };
+		756E7A7A26524A520057E69A /* accountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E7A7926524A520057E69A /* accountDetailView.swift */; };
+		756E7A7C265259650057E69A /* editPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E7A7B265259650057E69A /* editPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		751F6475264A49AD00E80FF8 /* doubling2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doubling2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		751F6478264A49AD00E80FF8 /* doubling2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doubling2App.swift; sourceTree = "<group>"; };
+		751F6475264A49AD00E80FF8 /* doubling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doubling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		751F6478264A49AD00E80FF8 /* doublingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doublingApp.swift; sourceTree = "<group>"; };
 		751F647A264A49AD00E80FF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		751F647C264A49AE00E80FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		751F647F264A49AE00E80FF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		751F6481264A49AE00E80FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		751F6487264A590A00E80FF8 /* sumOfAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumOfAsset.swift; sourceTree = "<group>"; };
+		756E7A7926524A520057E69A /* accountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountDetailView.swift; sourceTree = "<group>"; };
+		756E7A7B265259650057E69A /* editPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +42,7 @@
 		751F646C264A49AD00E80FF8 = {
 			isa = PBXGroup;
 			children = (
-				751F6477264A49AD00E80FF8 /* doubling2 */,
+				751F6477264A49AD00E80FF8 /* doubling */,
 				751F6476264A49AD00E80FF8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,21 +50,24 @@
 		751F6476264A49AD00E80FF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				751F6475264A49AD00E80FF8 /* doubling2.app */,
+				751F6475264A49AD00E80FF8 /* doubling.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		751F6477264A49AD00E80FF8 /* doubling2 */ = {
+		751F6477264A49AD00E80FF8 /* doubling */ = {
 			isa = PBXGroup;
 			children = (
-				751F6478264A49AD00E80FF8 /* doubling2App.swift */,
+				751F6478264A49AD00E80FF8 /* doublingApp.swift */,
 				751F647A264A49AD00E80FF8 /* ContentView.swift */,
+				756E7A7926524A520057E69A /* accountDetailView.swift */,
+				756E7A7B265259650057E69A /* editPage.swift */,
+				751F6487264A590A00E80FF8 /* sumOfAsset.swift */,
 				751F647C264A49AE00E80FF8 /* Assets.xcassets */,
 				751F6481264A49AE00E80FF8 /* Info.plist */,
 				751F647E264A49AE00E80FF8 /* Preview Content */,
 			);
-			path = doubling2;
+			path = doubling;
 			sourceTree = "<group>";
 		};
 		751F647E264A49AE00E80FF8 /* Preview Content */ = {
@@ -72,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		751F6474264A49AD00E80FF8 /* doubling2 */ = {
+		751F6474264A49AD00E80FF8 /* doubling */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 751F6484264A49AE00E80FF8 /* Build configuration list for PBXNativeTarget "doubling2" */;
+			buildConfigurationList = 751F6484264A49AE00E80FF8 /* Build configuration list for PBXNativeTarget "doubling" */;
 			buildPhases = (
 				751F6471264A49AD00E80FF8 /* Sources */,
 				751F6472264A49AD00E80FF8 /* Frameworks */,
@@ -84,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = doubling2;
+			name = doubling;
 			productName = doubling2;
-			productReference = 751F6475264A49AD00E80FF8 /* doubling2.app */;
+			productReference = 751F6475264A49AD00E80FF8 /* doubling.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 751F6470264A49AD00E80FF8 /* Build configuration list for PBXProject "doubling2" */;
+			buildConfigurationList = 751F6470264A49AD00E80FF8 /* Build configuration list for PBXProject "doubling" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				751F6474264A49AD00E80FF8 /* doubling2 */,
+				751F6474264A49AD00E80FF8 /* doubling */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				751F6488264A590A00E80FF8 /* sumOfAsset.swift in Sources */,
+				756E7A7A26524A520057E69A /* accountDetailView.swift in Sources */,
 				751F647B264A49AD00E80FF8 /* ContentView.swift in Sources */,
-				751F6479264A49AD00E80FF8 /* doubling2App.swift in Sources */,
+				756E7A7C265259650057E69A /* editPage.swift in Sources */,
+				751F6479264A49AD00E80FF8 /* doublingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +280,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"doubling2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"doubling/Preview Content\"";
 				DEVELOPMENT_TEAM = UDKQ7DL692;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = doubling2/Info.plist;
+				INFOPLIST_FILE = doubling/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = blair.doubling2;
+				PRODUCT_BUNDLE_IDENTIFIER = blair.doubling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,16 +302,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"doubling2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"doubling/Preview Content\"";
 				DEVELOPMENT_TEAM = UDKQ7DL692;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = doubling2/Info.plist;
+				INFOPLIST_FILE = doubling/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = blair.doubling2;
+				PRODUCT_BUNDLE_IDENTIFIER = blair.doubling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		751F6470264A49AD00E80FF8 /* Build configuration list for PBXProject "doubling2" */ = {
+		751F6470264A49AD00E80FF8 /* Build configuration list for PBXProject "doubling" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				751F6482264A49AE00E80FF8 /* Debug */,
@@ -318,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		751F6484264A49AE00E80FF8 /* Build configuration list for PBXNativeTarget "doubling2" */ = {
+		751F6484264A49AE00E80FF8 /* Build configuration list for PBXNativeTarget "doubling" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				751F6485264A49AE00E80FF8 /* Debug */,
