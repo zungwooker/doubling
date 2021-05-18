@@ -21,6 +21,22 @@ struct ContentView: View {
                     }
                 }
                 .navigationTitle("Doubling")
+                .navigationBarItems(
+                    leading: Button {
+                        self.alertIsPresented = true
+                    } label: {
+                        Text("편집")
+                    }
+                    .alert(isPresented: $alertIsPresented){
+                        Alert(title: Text("알림"), message: Text("이 버튼은 아직 동작하지 않습니다."), dismissButton: .default(Text("Dismiss")))
+                    }
+                    ,
+                    trailing: Button {
+                        
+                    } label: {
+                        Image(systemName: "plus")
+                    }
+                )
             }
         }
     }
