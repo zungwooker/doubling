@@ -12,6 +12,8 @@
 		751F647D264A49AE00E80FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F647C264A49AE00E80FF8 /* Assets.xcassets */; };
 		751F6480264A49AE00E80FF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F647F264A49AE00E80FF8 /* Preview Assets.xcassets */; };
 		751F6488264A590A00E80FF8 /* sumOfAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F6487264A590A00E80FF8 /* sumOfAsset.swift */; };
+		7532BED326537D8000BEC3BF /* accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7532BED226537D8000BEC3BF /* accounts.swift */; };
+		756E5CCC265387C10002FA72 /* accountRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E5CCB265387C10002FA72 /* accountRow.swift */; };
 		756E7A7A26524A520057E69A /* accountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E7A7926524A520057E69A /* accountDetailView.swift */; };
 		756E7A7C265259650057E69A /* editPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E7A7B265259650057E69A /* editPage.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 		751F647F264A49AE00E80FF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		751F6481264A49AE00E80FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		751F6487264A590A00E80FF8 /* sumOfAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumOfAsset.swift; sourceTree = "<group>"; };
+		7532BED226537D8000BEC3BF /* accounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accounts.swift; sourceTree = "<group>"; };
+		756E5CCB265387C10002FA72 /* accountRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountRow.swift; sourceTree = "<group>"; };
 		756E7A7926524A520057E69A /* accountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountDetailView.swift; sourceTree = "<group>"; };
 		756E7A7B265259650057E69A /* editPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +64,8 @@
 			children = (
 				751F6478264A49AD00E80FF8 /* doublingApp.swift */,
 				751F647A264A49AD00E80FF8 /* ContentView.swift */,
+				756E5CCB265387C10002FA72 /* accountRow.swift */,
+				7532BED226537D8000BEC3BF /* accounts.swift */,
 				756E7A7926524A520057E69A /* accountDetailView.swift */,
 				756E7A7B265259650057E69A /* editPage.swift */,
 				751F6487264A590A00E80FF8 /* sumOfAsset.swift */,
@@ -148,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				751F6488264A590A00E80FF8 /* sumOfAsset.swift in Sources */,
+				7532BED326537D8000BEC3BF /* accounts.swift in Sources */,
 				756E7A7A26524A520057E69A /* accountDetailView.swift in Sources */,
+				756E5CCC265387C10002FA72 /* accountRow.swift in Sources */,
 				751F647B264A49AD00E80FF8 /* ContentView.swift in Sources */,
 				756E7A7C265259650057E69A /* editPage.swift in Sources */,
 				751F6479264A49AD00E80FF8 /* doublingApp.swift in Sources */,

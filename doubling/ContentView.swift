@@ -4,38 +4,24 @@ struct ContentView: View {
     @State private var alertIsPresented = false
    
     var body: some View {
- 
-        NavigationView() {
-            VStack{
-                sumOfAsset()
-                    .padding(.horizontal)
-                
-                Form{
+        NavigationView {
+           VStack{
+                List {
+                    sumOfAsset()
                     Section(header: Text("Acccounts")){
-                        NavigationLink(destination: ContentView2()){Text("카카오뱅크")}
-                        NavigationLink(destination: ContentView3()){Text("신한은행")}
-                    }//Section
-                }//Form
-            }//VStack
-            .navigationTitle("Doubling")
-            .toolbar {
-                ToolbarItemGroup(placement: .navigationBarTrailing){
-                    Button(action: {
-                        self.alertIsPresented = true
-                        print("\(alertIsPresented)")
-                    }) {
-                        Label("Save", systemImage: "plus")
-                    }
-                    .alert(isPresented: $alertIsPresented) {
-                                Alert(title: Text("Title"), message: Text("This is a alert message"), dismissButton: .default(Text("Dismiss")))
-                            }
-                }
-                ToolbarItemGroup(placement: .navigationBarLeading){
-                    Button("편집") {
-                        print("well done!")
+                        NavigationLink(destination: ContentView2()){
+                            accountRow()
+                        }
+                        NavigationLink(destination: ContentView2()){
+                            accountRow()
+                        }
+                        NavigationLink(destination: ContentView2()){
+                            accountRow()
+                        }
                     }
                 }
-            }//VStack methods
+                .navigationTitle("Doubling")
+            }
         }
     }
 }
